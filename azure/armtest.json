@@ -13,7 +13,7 @@
         "type": "string",
         "defaultValue": "[toLower(format('{0}-{1}', variables('vmName'), uniqueString(resourceGroup().id, variables('vmName'))))]",
         "metadata": {
-          "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
+          "description": "from azure folder."
         }
       },
       "publicIpName": {
