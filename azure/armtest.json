@@ -9,13 +9,6 @@
       }
     },
     "parameters": {
-      "adminPassword": {
-        "type": "secureString",
-        "minLength": 12,
-        "metadata": {
-          "description": "Password for the Virtual Machine."
-        }
-      },
       "dnsLabelPrefix": {
         "type": "string",
         "defaultValue": "[toLower(format('{0}-{1}', variables('vmName'), uniqueString(resourceGroup().id, variables('vmName'))))]",
