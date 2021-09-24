@@ -74,7 +74,7 @@
         "metadata": {
           "description": "Size of the virtual machine."
         }
-      },
+      }
     },
     "functions": [],
     "variables": {
