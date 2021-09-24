@@ -20,7 +20,7 @@
         "type": "string",
         "defaultValue": "myPublicIP",
         "metadata": {
-          "description": "Name for the Public IP used to access the Virtual Machine."
+          "description": "James"
         }
       },
       "publicIPAllocationMethod": {
